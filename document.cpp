@@ -30,3 +30,8 @@ std::string document::get_name()
 {
   return name;
 }
+
+void document::set_name(const std::string& name_)
+{
+  name = name_;
+}

@@ -14,10 +14,7 @@ class document : public interface<document>
     void add_primitive(iprimitive::ref primitive_);
     void del_primitive(iprimitive::ref primitive_);
     std::string get_name();
-    void set_name(const std::string& name_)
-    {
-      name = name_;
-    }
+    void set_name(const std::string& name_);
 
   private:
     std::string name;
