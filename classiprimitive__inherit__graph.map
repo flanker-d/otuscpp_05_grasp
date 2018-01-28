@@ -1,0 +1,8 @@
+<map id="iprimitive" name="iprimitive">
+<area shape="rect" id="node6" href="$classcircle.html" title="circle " alt="" coords="5,531,96,623"/>
+<area shape="rect" id="node7" href="$classline.html" title="line " alt="" coords="121,531,212,623"/>
+<area shape="rect" id="node8" href="$classrectangle.html" title="rectangle " alt="" coords="237,531,331,623"/>
+<area shape="rect" id="node2" href="$structinterface.html" title="{interface\&lt; iprimitive \&gt;\n||+ ~interface()\l}" alt="" coords="93,275,240,352"/>
+<area shape="rect" id="node3" href="$classinterface__base.html" title="line " alt="" coords="65,133,172,211"/>
+<area shape="rect" id="node4" href="$structinterface.html" title="interface " alt="" coords="197,133,336,211"/>
+</map>

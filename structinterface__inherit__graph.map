@@ -1,0 +1,25 @@
+<map id="interface&lt; T, base &gt;" name="interface&lt; T, base &gt;">
+<area shape="rect" id="node3" href="$structinterface.html" title="{interface\&lt; iexporter \&gt;\n||+ ~interface()\l}" alt="" coords="105,275,252,352"/>
+<area shape="rect" id="node7" href="$structinterface.html" title="{interface\&lt; iimporter \&gt;\n||+ ~interface()\l}" alt="" coords="276,275,423,352"/>
+<area shape="rect" id="node11" href="$structinterface.html" title="{interface\&lt; document \&gt;\n||+ ~interface()\l}" alt="" coords="447,275,600,352"/>
+<area shape="rect" id="node13" href="$structinterface.html" title="{interface\&lt; workspace \&gt;\n||+ ~interface()\l}" alt="" coords="625,275,783,352"/>
+<area shape="rect" id="node15" href="$structinterface.html" title="{interface\&lt; iprimitive \&gt;\n||+ ~interface()\l}" alt="" coords="807,275,955,352"/>
+<area shape="rect" id="node20" href="$structinterface.html" title="{interface\&lt; file_handlers \&gt;\n||+ ~interface()\l}" alt="" coords="979,275,1148,352"/>
+<area shape="rect" id="node22" href="$structinterface.html" title="{interface\&lt; ifile_handler \&gt;\n||+ ~interface()\l}" alt="" coords="1173,275,1337,352"/>
+<area shape="rect" id="node4" href="$classiexporter.html" title="iexporter " alt="" coords="125,440,232,517"/>
+<area shape="rect" id="node5" href="$classcdr__exporter.html" title="cdr_exporter " alt="" coords="5,628,112,705"/>
+<area shape="rect" id="node6" href="$classsvg__exporter.html" title="svg_exporter " alt="" coords="136,628,243,705"/>
+<area shape="rect" id="node8" href="$classiimporter.html" title="iimporter " alt="" coords="296,440,403,517"/>
+<area shape="rect" id="node9" href="$classcdr__importer.html" title="cdr_importer " alt="" coords="276,628,383,705"/>
+<area shape="rect" id="node10" href="$classsvg__importer.html" title="svg_importer " alt="" coords="407,628,513,705"/>
+<area shape="rect" id="node12" href="$classdocument.html" title="document " alt="" coords="465,403,583,554"/>
+<area shape="rect" id="node14" href="$classworkspace.html" title="workspace " alt="" coords="633,418,775,539"/>
+<area shape="rect" id="node16" href="$classiprimitive.html" title="iprimitive " alt="" coords="835,440,927,517"/>
+<area shape="rect" id="node17" href="$classcircle.html" title="circle " alt="" coords="719,621,811,713"/>
+<area shape="rect" id="node18" href="$classline.html" title="line " alt="" coords="835,621,927,713"/>
+<area shape="rect" id="node19" href="$classrectangle.html" title="rectangle " alt="" coords="951,621,1045,713"/>
+<area shape="rect" id="node21" href="$classfile__handlers.html" title="file_handler " alt="" coords="1007,425,1121,532"/>
+<area shape="rect" id="node23" href="$classifile__handler.html" title="ifile_handler " alt="" coords="1203,425,1309,532"/>
+<area shape="rect" id="node24" href="$classcdr__handler.html" title="cdr_handler " alt="" coords="1136,606,1245,727"/>
+<area shape="rect" id="node25" href="$classsvg__handler.html" title="svg_handler " alt="" coords="1269,606,1380,727"/>
+</map>
