@@ -1,0 +1,35 @@
+language: cpp
+before_script:
+  - sudo apt-get install -y doxygen
+  - sudo apt-get install -y doxygen-doc
+  - sudo apt-get install -y doxygen-latex
+  - sudo apt-get install -y doxygen-gui
+  - sudo apt-get install -y graphviz
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo apt-get update -qq
+  - sudo apt-get install -y g++-5
+  - sudo rm -f /usr/bin/gcc
+  - sudo rm -f /usr/bin/g++
+  - sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - g++ -v
+
+script:
+  - cmake .
+  - cmake --build .
+  - cmake --build . --target package
+  - doxygen Doxyfile
+
+compiler: g++
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script:
+    - curl -T corel_draw_killer-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uflanker-d:$BINTRAY_API_KEY "https://api.bintray.com/content/flankerd/otuscpp/05_corel_draw_killer/$TRAVIS_BUILD_NUMBER/corel_draw_killer-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+  - provider: pages
+    skip_cleanup: true
+    github-token: $GH_REPO_TOKEN
+    local-dir: html
+    keep-history: true
+    on:
+      branch: master
